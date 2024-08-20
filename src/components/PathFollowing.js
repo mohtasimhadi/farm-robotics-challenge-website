@@ -1,29 +1,26 @@
 import React from 'react';
+import data from '../data.json'; // Correct path to data.json
 
-const PathFollowing = ({ data }) => {
+const PathFollowing = () => {
+  const { images, description, video } = data.pathFollowing;
+
   return (
-    <section id="path-following" className="path-following-section">
-      <div className="description">
-        <p>{data.description}</p>
+    <div className="path-following-section">
+      <div className="description-container">
+        {images.map((image, index) => (
+          <img key={index} src={image} alt={`Path Following ${index}`} className="path-image" />
+        ))}
+        <p className="description">{description}</p>
       </div>
-      <div className="media">
-        <div className="images">
-          <img src={data.images[0]} alt="Path Following 1" />
-          <img src={data.images[1]} alt="Path Following 2" />
-        </div>
-        <div className="video">
-          <iframe
-            width="100%"
-            height="315"
-            src={data.videoUrl}
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
+      <div className="video">
+        <iframe
+          title="Path Following Video"
+          src={video}
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
       </div>
-    </section>
+    </div>
   );
 };
 

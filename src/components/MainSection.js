@@ -1,13 +1,30 @@
-import React from 'react';
+// src/components/MainSection.js
 
-const MainSection = ({ data }) => {
+import React, { useEffect, useState } from 'react';
+import data from '../data.json';
+
+const MainSection = () => {
+  const [content, setContent] = useState(null);
+
+  useEffect(() => {
+    // Fetch data from JSON
+    setContent(data.mainSection);
+  }, []);
+
+  const scrollToPathFollowing = () => {
+    document.getElementById('path-following-section').scrollIntoView({ behavior: 'smooth' });
+  };
+
+  if (!content) {
+    return <div>Loading...</div>;
+  }
+
   return (
-    <section id="main" className="main-section">
-      <img src={data.coverImage} alt="Cover" className="cover-image" />
-      <h1 className="title">{data.title}</h1>
-      <div className="content">
-        <img src={data.content.image} alt="Main Content" />
-        <p>{data.content.description}</p>
+    <section className="main-section">
+      <h1 className="title">{content.title}</h1>
+      <p className="description">{content.description}</p>
+      <div className="button-container">
+        <button className="button" onClick={scrollToPathFollowing}>Learn More</button>
       </div>
     </section>
   );

@@ -1,18 +1,15 @@
 {
-  "main": {
-    "coverImage": "path/to/cover-image.jpg",
-    "title": "Welcome to Our Project",
-    "content": {
-      "image": "path/to/image1.jpg",
-      "description": "This is a description for the main section."
-    }
+  "mainSection": {
+    "title": "An automated unmanned path following ground robot for plant counting and quality assessment.",
+    "description": "Ornamental Nursery has hundreds of thousands of plants in a single nursery, and in a single nursery, hundreds of different varieties of plants can be found. It is difficult to manage these ornamental plants and keep track of them. Their count is essential, especially in the selling season, and their quality has to be estimated sidewise continuously. Moreover, the impending labor shortage and higher wages, ultimately lead to higher plant prices and that, in turn, impacts the market.",
+    "backgroundImage": "images/cover.jpg"
   },
   "pathFollowing": {
     "images": [
-      "path/to/image1.jpg",
-      "path/to/image2.jpg"
+      "/path-to-your-image1.jpg",
+      "/path-to-your-image2.jpg"
     ],
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "description": "Path following is a crucial aspect of autonomous navigation. It involves..."
+    "description": "This section covers our path-following technology. Here, you can see how we track paths and make decisions.",
+    "video": "https://www.youtube.com/embed/your-video-id"
   }
 }
