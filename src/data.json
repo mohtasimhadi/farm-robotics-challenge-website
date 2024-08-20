@@ -1,0 +1,18 @@
+{
+  "main": {
+    "coverImage": "path/to/cover-image.jpg",
+    "title": "Welcome to Our Project",
+    "content": {
+      "image": "path/to/image1.jpg",
+      "description": "This is a description for the main section."
+    }
+  },
+  "pathFollowing": {
+    "images": [
+      "path/to/image1.jpg",
+      "path/to/image2.jpg"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "description": "Path following is a crucial aspect of autonomous navigation. It involves..."
+  }
+}
