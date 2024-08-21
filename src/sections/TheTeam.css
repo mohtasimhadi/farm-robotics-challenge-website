@@ -17,12 +17,12 @@
     border-radius: 8px;
     text-align: center;
     width: 200px;
-    flex: 1 1 auto; /* Allows items to grow and shrink as needed */
+    flex: 1 1 auto;
   }
   
   .team-photo {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    height: auto;
     border-radius: 50%;
   }
   

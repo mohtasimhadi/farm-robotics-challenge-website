@@ -31,8 +31,7 @@ const teamMembers = [
 function TheTeam() {
   return (
     <div className="team-container">
-      <h1>The Team</h1>
-      <p>Meet our team...</p>
+      <h1><a href='#theTeam'>The Team</a></h1>
       <div className="team-members">
         {teamMembers.map((member, index) => (
           <div key={index} className="team-member">
