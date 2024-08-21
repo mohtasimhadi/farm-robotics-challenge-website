@@ -1,5 +1,4 @@
 import React from 'react';
-import './PlantCounting.css'; // Import the scoped CSS file
 
 function PlantCounting() {
   return (

@@ -1,5 +1,4 @@
 import React from 'react';
-import './PathFollowing.css'; // Import the CSS file
 
 function PathFollowing() {
   return (

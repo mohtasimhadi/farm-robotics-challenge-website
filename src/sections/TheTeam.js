@@ -1,5 +1,4 @@
 import React from 'react';
-import './TheTeam.css'; // Import the CSS file
 
 const teamMembers = [
   {

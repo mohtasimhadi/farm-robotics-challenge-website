@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Home from './sections/Home';
 import PathFollowing from './sections/PathFollowing';
 import PlantCounting from './sections/PlantCounting';
