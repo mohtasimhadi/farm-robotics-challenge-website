@@ -35,12 +35,12 @@ const TeamSection: React.FC = () => {
             }} 
           />
           <Typography variant="body1">Hamid Habib Syed</Typography>
-          <Typography variant="body2">email1@example.com</Typography>
+          <Typography variant="body2">hhs0015@auburn.edu</Typography>
           <Box>
-            <Link href="http://website1.com" target="_blank" style={{ marginRight: '8px' }}>
+            <Link href="https://hamidsyed298.github.io/" target="_blank" style={{ marginRight: '8px' }}>
               <LanguageIcon />
             </Link>
-            <Link href="http://linkedin.com/in/person1" target="_blank">
+            <Link href="https://www.linkedin.com/in/hamid-habib-syed-74004815a/" target="_blank">
               <LinkedInIcon />
             </Link>
           </Box>
@@ -61,12 +61,12 @@ const TeamSection: React.FC = () => {
             }} 
           />
           <Typography variant="body1">Faraz Ahmed</Typography>
-          <Typography variant="body2">email1@example.com</Typography>
+          <Typography variant="body2">fza0070@auburn.edu</Typography>
           <Box>
             <Link href="" target="_blank" style={{ marginRight: '8px' }}>
               <LanguageIcon />
             </Link>
-            <Link href="http://linkedin.com/in/person1" target="_blank">
+            <Link href="https://www.linkedin.com/in/mfaraz-ahmad/" target="_blank">
               <LinkedInIcon />
             </Link>
           </Box>
@@ -87,12 +87,12 @@ const TeamSection: React.FC = () => {
             }} 
           />
           <Typography variant="body1">Mesbahul Maruf</Typography>
-          <Typography variant="body2">email1@example.com</Typography>
+          <Typography variant="body2">mzm0411@auburn.edu</Typography>
           <Box>
             <Link href="" target="_blank" style={{ marginRight: '8px' }}>
               <LanguageIcon />
             </Link>
-            <Link href="http://linkedin.com/in/person1" target="_blank">
+            <Link href="https://www.linkedin.com/in/mesbah-maruf/" target="_blank">
               <LinkedInIcon />
             </Link>
           </Box>
@@ -113,12 +113,12 @@ const TeamSection: React.FC = () => {
             }} 
           />
           <Typography variant="body1">Mohtasim Hadi Rafi</Typography>
-          <Typography variant="body2">email1@example.com</Typography>
+          <Typography variant="body2">mzr0167@auburn.edu</Typography>
           <Box>
             <Link href="moho.blog" target="_blank" style={{ marginRight: '8px' }}>
               <LanguageIcon />
             </Link>
-            <Link href="http://linkedin.com/in/person1" target="_blank">
+            <Link href="https://www.linkedin.com/in/mohtasimhadi/" target="_blank">
               <LinkedInIcon />
             </Link>
           </Box>
