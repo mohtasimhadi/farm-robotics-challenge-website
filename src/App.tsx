@@ -13,11 +13,21 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <Navbar />
-      <HomeSection />
-      <PathFollowingSection />
-      <PlantCountingSection />
-      <QualityAssessmentSection />
-      <TeamSection />
+      <div id="home">
+        <HomeSection />
+      </div>
+      <div id="path-following">
+        <PathFollowingSection />
+      </div>
+      <div id="plant-counting">
+        <PlantCountingSection />
+      </div>
+      <div id="quality-assessment">
+        <QualityAssessmentSection />
+      </div>
+      <div id="team">
+        <TeamSection />
+      </div>
       <Footer />
     </ThemeProvider>
   );
