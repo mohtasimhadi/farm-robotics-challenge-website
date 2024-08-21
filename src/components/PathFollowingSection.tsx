@@ -5,7 +5,7 @@ const PathFollowingSection: React.FC = () => {
   return (
     <Box
       sx={{
-        backgroundColor: '#E8EBE0', // Light green-white background
+        backgroundColor: '#white',
         padding: '20px',
         textAlign: 'center',
       }}

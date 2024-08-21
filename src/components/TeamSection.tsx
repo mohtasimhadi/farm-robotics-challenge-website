@@ -9,6 +9,7 @@ const TeamSection: React.FC = () => {
       flexDirection="column" 
       alignItems="center" 
       p={3}
+      sx={{ backgroundColor: '#E8EBE0'}} // Added backgroundColor style
     >
       <Typography variant="h3" gutterBottom align="center">
         Meet the Team

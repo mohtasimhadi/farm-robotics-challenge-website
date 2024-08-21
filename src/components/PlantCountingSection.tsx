@@ -5,7 +5,7 @@ const PlantCountingSection: React.FC = () => {
   return (
     <Box
       sx={{
-        backgroundColor: '#white',
+        backgroundColor: '#E8EBE0',
         padding: '20px',
         textAlign: 'center',
       }}
