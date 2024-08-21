@@ -6,10 +6,12 @@ import PlantCountingSection from './components/PlantCountingSection';
 import QualityAssessmentSection from './components/QualityAssessmentSection';
 import TeamSection from './components/TeamSection';
 import Footer from './components/Footer';
+import { ThemeProvider } from '@mui/material/styles';
+import theme from './theme'; 
 
 const App: React.FC = () => {
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       <Navbar />
       <HomeSection />
       <PathFollowingSection />
@@ -17,7 +19,7 @@ const App: React.FC = () => {
       <QualityAssessmentSection />
       <TeamSection />
       <Footer />
-    </div>
+    </ThemeProvider>
   );
 };
 
