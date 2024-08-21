@@ -1,14 +1,23 @@
 import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <nav className="navbar">
+      <div className="logo">Smart Systems Lab</div>
       <ul>
-        <li><a href="#main">Main</a></li>
-        <li><a href="#path-following">Path Following</a></li>
-        <li><a href="#plant-counting">Plant Counting</a></li>
-        <li><a href="#quality-assessment">Quality Assessment</a></li>
-        <li><a href="#the-team">The Team</a></li>
+        <li><button onClick={() => scrollToSection('main-section')}>Main</button></li>
+        <li><button onClick={() => scrollToSection('path-following-section')}>Path Following</button></li>
+        <li><button onClick={() => scrollToSection('plant-counting-section')}>Plant Counting</button></li>
+        <li><button onClick={() => scrollToSection('quality-assessment-section')}>Quality Assessment</button></li>
+        <li><button onClick={() => scrollToSection('the-team-section')}>The Team</button></li>
       </ul>
     </nav>
   );

@@ -1,26 +1,33 @@
+// src/components/PathFollowing.js
+
 import React from 'react';
-import data from '../data.json'; // Correct path to data.json
+import './PathFollowing.css';
+import data from '../data.json';
 
 const PathFollowing = () => {
-  const { images, description, video } = data.pathFollowing;
+  const { pathFollowing } = data;
 
   return (
-    <div className="path-following-section">
-      <div className="description-container">
-        {images.map((image, index) => (
-          <img key={index} src={image} alt={`Path Following ${index}`} className="path-image" />
-        ))}
-        <p className="description">{description}</p>
+    <section id="path-following-section" className="path-following-section">
+      <h2>{pathFollowing.title}</h2>
+      <div className="content">
+        <div className="media-container">
+          <img src={pathFollowing.image1} alt={pathFollowing.image1Alt} className="media-image" />
+          <img src={pathFollowing.image2} alt={pathFollowing.image2Alt} className="media-image" />
+          <div className="video-container">
+            <iframe
+              src={pathFollowing.video}
+              title="YouTube video"
+              className="video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+        <p className="description">{pathFollowing.description}</p>
       </div>
-      <div className="video">
-        <iframe
-          title="Path Following Video"
-          src={video}
-          frameBorder="0"
-          allowFullScreen
-        ></iframe>
-      </div>
-    </div>
+    </section>
   );
 };
 
