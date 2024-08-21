@@ -16,26 +16,26 @@
     {
       "name": "Hamid Habib Syed",
       "photo": "/path/to/photo1.jpg",
-      "email": "john.doe@example.com",
-      "description": "Lead Developer with a passion for front-end design."
+      "email": "hhs0015@auburn.edu",
+      "description": ""
     },
     {
       "name": "Faraz Ahmed",
       "photo": "/path/to/photo2.jpg",
-      "email": "jane.smith@example.com",
-      "description": "Project Manager with experience in agile methodologies."
+      "email": "fza0070@auburn.edu",
+      "description": ""
     },
     {
       "name": "Mesbahul Maruf",
       "photo": "/path/to/photo3.jpg",
-      "email": "emily.johnson@example.com",
-      "description": "UI/UX Designer who loves creating intuitive user interfaces."
+      "email": "mzm0411@auburn.edu",
+      "description": ""
     },
     {
       "name": "Mohtasim Hadi Rafi",
       "photo": "/path/to/photo4.jpg",
-      "email": "michael.brown@example.com",
-      "description": "Backend Developer focused on scalable web services."
+      "email": "mzr0167@auburn.edu",
+      "description": "Website: moho.blog"
     }
   ]
 }
