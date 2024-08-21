@@ -1,18 +1,24 @@
-/* Ensure the entire app fills the screen height */
-.App {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Apply sans-serif font to all elements */
 }
 
-/* Navbar styling */
+body {
+  font-family: Arial, sans-serif; /* Ensure body text uses sans-serif */
+}
+
 .navbar {
-  background-color: #333;
-  padding: 10px;
+  background-color: #4CAF50; /* Green color for the navbar */
+  padding: 1rem;
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 1000; /* Ensure the navbar is on top of other content */
+  border-bottom: none; /* Ensure there's no border */
 }
 
 .navbar ul {
@@ -20,40 +26,39 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .navbar li {
-  display: inline;
+  margin: 0 1rem;
 }
 
 .navbar a {
-  color: white;
+  color: white; /* White text color */
   text-decoration: none;
-  padding: 10px 20px;
-  display: block;
+  font-weight: bold;
 }
 
 .navbar a:hover {
-  background-color: #555;
+  text-decoration: underline; /* Underline on hover */
 }
 
-/* Adjust content for the fixed navbar */
 .content {
-  padding-top: 60px;
-  flex: 1;
+  padding-top: 60px; /* Space for the fixed navbar */
 }
 
-section {
-  padding: 60px 20px;
-  min-height: 100vh;
+.content > section {
+  margin: 0;
+  background-color: #f9f9f9; /* Default background color */
 }
 
-/* Footer styling */
+.content > section:nth-child(even) {
+  background-color: #eaf2e0; /* Greenish-white background for even sections */
+}
+
 .footer {
-  background-color: #333;
-  color: white;
+  background-color: #4CAF50; /* Green color for the footer */
+  color: white; /* White text color */
   text-align: center;
-  padding: 10px;
-  flex-shrink: 0; /* Ensure the footer stays at the bottom */
+  padding: 1rem;
 }
