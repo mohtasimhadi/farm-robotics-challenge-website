@@ -11,6 +11,12 @@ body {
   font-family: Arial, sans-serif; /* Ensure body text uses sans-serif */
 }
 
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
 .navbar {
   background-color: #4CAF50; /* Green color for the navbar */
   padding: 1rem;
