@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import MainSection from './components/MainSection';
 import PathFollowing from './components/PathFollowing';
+import TeamSection from './components/TeamSection';
 // Import other components
 
 const App = () => {
@@ -17,7 +18,9 @@ const App = () => {
         <section id="path-following-section">
           <PathFollowing />
         </section>
-        {/* Other sections */}
+        <section id="the-team-section">
+          <TeamSection />
+        </section>
       </main>
       <Footer />
     </div>
