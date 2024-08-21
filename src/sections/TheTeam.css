@@ -1,0 +1,28 @@
+.team-container {
+    padding: 20px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .team-member {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    flex: 1 1 auto; /* Allows items to grow and shrink as needed */
+  }
+  
+  .team-photo {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+  }
+  
