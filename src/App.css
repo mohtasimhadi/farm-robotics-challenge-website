@@ -4,21 +4,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif; /* Apply sans-serif font to all elements */
+  font-family: sans-serif; /* Apply sans-serif font to all elements */
 }
 
 body {
-  font-family: Arial, sans-serif; /* Ensure body text uses sans-serif */
+  font-family: sans-serif; /* Ensure body text uses sans-serif */
 }
 
 .title {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #ffffff;
 }
 
 .navbar {
-  background-color: #4CAF50; /* Green color for the navbar */
+  background-color: #77e47a; /* Green color for the navbar */
   padding: 1rem;
   position: fixed;
   top: 0;

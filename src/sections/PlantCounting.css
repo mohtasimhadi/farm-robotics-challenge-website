@@ -9,13 +9,6 @@
     margin: 0 auto;
   }
   
-  /* Title styling */
-  .title {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
   /* Flex container for video and header text */
   .video-header-container {
     display: flex;

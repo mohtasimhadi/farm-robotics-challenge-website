@@ -11,14 +11,14 @@ const teamMembers = [
   {
     name: 'Faraz Ahmed',
     photo: '/images/Faraz.jpeg',
-    website: '',
-    email: 'bob@example.com'
+    website: 'linkedin.com/in/mfaraz-ahmad',
+    email: 'fza0070@auburn.edu'
   },
   {
     name: 'Mesbahul Maruf',
     photo: '/images/Maruf.jpeg',
-    website: '',
-    email: 'charlie@example.com'
+    website: 'linkedin.com/in/mesbah-maruf',
+    email: 'mzm0411@auburn.edu'
   },
   {
     name: 'Mohtasim Hadi Rafi',
