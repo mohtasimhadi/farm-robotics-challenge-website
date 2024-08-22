@@ -24,26 +24,34 @@ const PlantCountingSection: React.FC = () => {
       >
         A multi-camera system is deployed to capture panoramic images of the nursery beds using a novel image stitching technique. Plant counts are then determined by tallying the masks generated through state-of-the-art instance segmentation algorithms. 
       </Typography>
-      <Box sx={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
-        <Box sx={{ width: '45%', margin: '0 10px', textAlign: 'center' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap' }}>
+        <Box sx={{ width: '22%', margin: '0 10px', textAlign: 'center' }}>
           <img
-            src="PathPlanningPic.jpeg"
+            src="Plant_Counting_LongImage_original1_resized.jpg"
             alt="Path Planning"
-            style={{ width: '100%', height: '380px' }}
-          />
-          <Typography variant="caption" display="block" sx={{ marginTop: '5px' }}>
-            Path Planning
-          </Typography>
+            style={{ width: '100%'}}
+          />  
         </Box>
-        <Box sx={{ width: '45%', margin: '0 10px', textAlign: 'center' }}>
+        <Box sx={{ width: '22%', margin: '0 10px', textAlign: 'center' }}>
           <img
-            src="ZED_PathPlanning.png"
-            alt="ZED Path Planning"
-            style={{ width: '100%', height: '380px' }}
-          />
-          <Typography variant="caption" display="block" sx={{ marginTop: '5px' }}>
-            ZED Path Planning
-          </Typography>
+            src="Plant_Counting_LongImage_predicted1_resized.jpg"
+            alt="Path Planning"
+            style={{ width: '100%'}}
+          />  
+        </Box>
+        <Box sx={{ width: '22%', margin: '0 10px', textAlign: 'center' }}>
+          <img
+            src="Plant_Counting_LongImage_original2_resized.jpg"
+            alt="Path Planning"
+            style={{ width: '100%'}}
+          />  
+        </Box>
+        <Box sx={{ width: '22%', margin: '0 10px', textAlign: 'center' }}>
+          <img
+            src="Plant_Counting_LongImage_predicted2_resized.jpg"
+            alt="Path Planning"
+            style={{ width: '100%'}}
+          />  
         </Box>
       </Box>
     </Box>

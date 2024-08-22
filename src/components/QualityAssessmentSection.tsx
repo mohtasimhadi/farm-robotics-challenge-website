@@ -25,37 +25,12 @@ const QualityAssessmentSection: React.FC = () => {
         Morphological parameters are quantified to determine the area, perimeter, eccentricity, and circularity of individual ornamental plants. 
       </Typography>
       <Box sx={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
-        <Box sx={{ width: '22%', margin: '0 10px', textAlign: 'center' }}>
+        <Box sx={{ width: '80%', margin: '0 10px', textAlign: 'center' }}>
           <img
-            src="Plot_Area_individual_I.png"
+            src="QualityAssessmentCombined.png"
             alt="Path Planning"
             style={{ width: '100%', height: '300px' }}
-          />
-          
-        </Box>
-        <Box sx={{ width: '22%', margin: '0 10px', textAlign: 'center' }}>
-          <img
-            src="Plot_Perimeter_individual_II.png"
-            alt="Path Planning"
-            style={{ width: '100%', height: '300px' }}
-          />
-          
-        </Box>
-        <Box sx={{ width: '22%', margin: '0 10px', textAlign: 'center' }}>
-          <img
-            src="Plot_Eccentricity_individual_III.png"
-            alt="Path Planning"
-            style={{ width: '100%', height: '300px' }}
-          />
-          
-        </Box>
-        <Box sx={{ width: '22%', margin: '0 10px', textAlign: 'center' }}>
-          <img
-            src="Plot_Circularity_individual_IV.png"
-            alt="Path Planning"
-            style={{ width: '100%', height: '300px' }}
-          />
-          
+          />          
         </Box>
         <Typography
         variant="h5"

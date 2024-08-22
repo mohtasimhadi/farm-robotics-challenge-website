@@ -21,7 +21,7 @@ const PathFollowingSection: React.FC = () => {
         component="iframe"
         width="80%"
         height="400px"
-        src="https://www.youtube.com/embed/Y1z069Ci5aE?si=nGCAGuluaF_4zD4X"
+        src="https://www.youtube.com/embed/sa3ebk370uU?si=7ZWaTChuQ2ulBRRm"
         title="YouTube video player"
         frameBorder="0"
         allowFullScreen
